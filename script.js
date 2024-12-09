@@ -24,3 +24,17 @@ function openRoom(evt, RoomNum) {
   document.getElementById(RoomNum).style.display = "block";
 
 }
+
+
+// Editor JS
+  
+async function copyToClipboard() {
+  const divElement = document.getElementById('editable');
+  try {
+      await navigator.clipboard.writeText(divElement.innerHTML);
+      alert('Content copied to clipboard!');
+  } catch (error) {
+      console.error('Error copying to clipboard:', error);
+  }
+}
+
