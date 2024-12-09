@@ -118,3 +118,24 @@
   background-color: #202020;
   
 }
+
+
+/* Editor CSS */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 8px 0;
+}
+
+.editors {
+  position: relative;
+  font-family: Montserrat, sans-serif;
+  width: 33%;
+  height: 50px;
+}
+
